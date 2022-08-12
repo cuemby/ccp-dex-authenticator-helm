@@ -7,7 +7,7 @@ replicaCount: 1
 
 image:
   # -- Name of the image repository to pull the container image from.
-  repository: ruber19/dex-k8s-authenticator:1.4.2
+  repository: ruber19/dex-k8s-authenticator
 
   # -- [Image pull policy](https://kubernetes.io/docs/concepts/containers/images/#updating-images) for updating already existing images on a node.
   pullPolicy: IfNotPresent
