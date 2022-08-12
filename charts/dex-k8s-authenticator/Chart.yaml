@@ -1,0 +1,29 @@
+annotations:
+  artifacthub.io/changes: |
+    - Add license file
+  artifacthub.io/images: |
+    - name: dex-k8s-authenticator
+      image: ruber19/dex-k8s-authenticator:1.4.2
+apiVersion: v2
+appVersion: 1.4.2
+description: A helper web-app which talks to one or more Dex Identity services to
+  generate kubectl commands for creating and modifying a kubeconfig.
+home: https://github.com/cuemby/dex-k8s-authenticator
+icon: https://dexidp.io/favicon.png
+keywords:
+- oidc
+- dex
+- kubernetes
+- k8s
+kubeVersion: '>=1.14.0-0'
+maintainers:
+- email: ruber19@gmail.com
+  name: rootbean
+  url: https://github.com/rootbean
+name: dex-k8s-authenticator
+sources:
+- https://github.com/cuemby/dex-k8s-authenticator
+- https://github.com/cuemby/ccp-dex-authenticator-helm/tree/master
+type: application
+version: 0.0.2
+
