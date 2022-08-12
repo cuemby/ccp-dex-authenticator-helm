@@ -9,10 +9,10 @@ entries:
           image: ruber19/dex-k8s-authenticator:1.4.2
     apiVersion: v2
     appVersion: 1.4.2
-    created: "2022-08-11T22:06:22.352836-05:00"
+    created: "2022-08-12T08:36:49.151493-05:00"
     description: A helper web-app which talks to one or more Dex Identity services
       to generate kubectl commands for creating and modifying a kubeconfig.
-    digest: 1e99dc4d8417fe6a560f085efae061cdc109c20ad2873c114db8969870465fd1
+    digest: b23466ef9e89d6b652d37dd3f807d8df5a131104ff13f28481ff0fa9692ce4f8
     home: https://github.com/cuemby/dex-k8s-authenticator
     icon: https://dexidp.io/favicon.png
     keywords:
@@ -33,4 +33,4 @@ entries:
     urls:
     - dex-k8s-authenticator-0.0.2.tgz
     version: 0.0.2
-generated: "2022-08-11T22:06:22.351888-05:00"
+generated: "2022-08-12T08:36:49.150618-05:00"
